@@ -95,6 +95,9 @@
 	  <MauiXaml Update="Timer_Page.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="TreePage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="ValgusfoorPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
