@@ -24,12 +24,13 @@ public partial class StartPage : ContentPage
             Button nupp = new Button
             {
                 Text = LeheNimed[i],
-                FontSize = 36,
+                FontSize = 28,
                 FontFamily = "DancingScript",
                 BackgroundColor = Colors.LightGray,
                 TextColor = Colors.Black,
                 CornerRadius = 10,
-                HeightRequest = 60,
+                HeightRequest = 80,
+                Padding = new Thickness(10),
                 ZIndex = i
             };
             vst.Add(nupp);
