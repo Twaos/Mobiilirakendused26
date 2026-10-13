@@ -8,9 +8,9 @@ public partial class StartPage : ContentPage
     VerticalStackLayout vst;
     ScrollView sv;
     public List<ContentPage> Lehed = new List<ContentPage>() { new TextPage(), new FigurePage(), new ValgusfoorPage(), new DateTimePage(), new StepperSliderPage(), new RGBPage(), new LumememmPage(), new TreePage(), new PopUp_Page(),
-    new MysteryPage() };
+    new MysteryPage(), new PickerImageGridPage() };
     public List<string> LeheNimed = new List<string>() { "Tekst", "Kujund", "Valgusfoor", "Kuupäev ja aeg", "Stepper/Slider", "RGB mudel", "Lumememm", "Puu hooajad", "Pop-up aknad",
-    "Mõistatused" };
+    "Mõistatused","Pilt ja Grid" };
 
     public StartPage()
     {

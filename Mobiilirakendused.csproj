@@ -83,6 +83,9 @@
 	  <MauiXaml Update="MysteryPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	  <MauiXaml Update="PickerImageGridPage.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="PopUp_Page.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
