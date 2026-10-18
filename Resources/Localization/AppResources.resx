@@ -120,14 +120,47 @@
   <data name="ChangeLanguage" xml:space="preserve">
     <value>Change Language</value>
   </data>
+  <data name="CppDesc" xml:space="preserve">
+    <value> High-performance system language</value>
+  </data>
+  <data name="CppInfo" xml:space="preserve">
+    <value>Created by Bjarne Stroustrup in 1985. Hello World: std::cout &lt;&lt; "Hello, World!";</value>
+  </data>
+  <data name="CSharpDesc" xml:space="preserve">
+    <value>Powerful object-oriented language</value>
+  </data>
+  <data name="CSharpInfo" xml:space="preserve">
+    <value> Created by Microsoft in 2000. Hello World: Console.WriteLine("Hello, World!");</value>
+  </data>
   <data name="EnglishButton" xml:space="preserve">
     <value>English</value>
   </data>
   <data name="EstonianButton" xml:space="preserve">
     <value>Estonian</value>
   </data>
+  <data name="GalleryTitle" xml:space="preserve">
+    <value>Programming Languages</value>
+  </data>
   <data name="GreetingText" xml:space="preserve">
     <value>Hello, World!</value>
+  </data>
+  <data name="JavaDesc" xml:space="preserve">
+    <value>Write once, run anywhere</value>
+  </data>
+  <data name="JavaInfo" xml:space="preserve">
+    <value>Created by James Gosling in 1995. Hello World: System.out.println("Hello, World!");</value>
+  </data>
+  <data name="JsDesc" xml:space="preserve">
+    <value>The language of the web</value>
+  </data>
+  <data name="JsInfo" xml:space="preserve">
+    <value>Created by Brendan Eich in 1995. Hello World: console.log("Hello, World!");</value>
+  </data>
+  <data name="PythonDesc" xml:space="preserve">
+    <value>Great for data and automation</value>
+  </data>
+  <data name="PythonInfo" xml:space="preserve">
+    <value>Created by Guido van Rossum in 1991. Hello World: print("Hello, World!")</value>
   </data>
   <data name="RussianButton" xml:space="preserve">
     <value>Russian</value>

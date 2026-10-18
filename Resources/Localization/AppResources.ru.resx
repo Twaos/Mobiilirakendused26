@@ -120,14 +120,47 @@
   <data name="ChangeLanguage" xml:space="preserve">
     <value>Сменить язык</value>
   </data>
+  <data name="CppDesc" xml:space="preserve">
+    <value>Высокопроизводительный системный язык</value>
+  </data>
+  <data name="CppInfo" xml:space="preserve">
+    <value>Создан Бьёрном Страуструпом в 1985 году. Hello World: std::cout &lt;&lt; "Hello, World!";</value>
+  </data>
+  <data name="CSharpDesc" xml:space="preserve">
+    <value>Мощный объектно-ориентированный язык</value>
+  </data>
+  <data name="CSharpInfo" xml:space="preserve">
+    <value>Создан Microsoft в 2000 году. Hello World: Console.WriteLine("Hello, World!");</value>
+  </data>
   <data name="EnglishButton" xml:space="preserve">
     <value>Английский</value>
   </data>
   <data name="EstonianButton" xml:space="preserve">
     <value>Эстонский</value>
   </data>
+  <data name="GalleryTitle" xml:space="preserve">
+    <value>Языки программирования</value>
+  </data>
   <data name="GreetingText" xml:space="preserve">
     <value>Привет, мир!</value>
+  </data>
+  <data name="JavaDesc" xml:space="preserve">
+    <value>Напиши один раз, запускай везде</value>
+  </data>
+  <data name="JavaInfo" xml:space="preserve">
+    <value>Создан Джеймсом Гослингом в 1995 году. Hello World: System.out.println("Hello, World!");</value>
+  </data>
+  <data name="JsDesc" xml:space="preserve">
+    <value>Язык веб-разработки</value>
+  </data>
+  <data name="JsInfo" xml:space="preserve">
+    <value>Создан Бренданом Айхом в 1995 году. Hello World: console.log("Hello, World!");</value>
+  </data>
+  <data name="PythonDesc" xml:space="preserve">
+    <value>Отлично подходит для данных и автоматизации</value>
+  </data>
+  <data name="PythonInfo" xml:space="preserve">
+    <value>Создан Гвидо ван Россумом в 1991 году. Hello World: print("Hello, World!")</value>
   </data>
   <data name="RussianButton" xml:space="preserve">
     <value>Русский</value>

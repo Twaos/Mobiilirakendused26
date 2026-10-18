@@ -70,6 +70,42 @@ namespace Mobiilirakendused.Resources.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to  High-performance system language.
+        /// </summary>
+        internal static string CppDesc {
+            get {
+                return ResourceManager.GetString("CppDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Created by Bjarne Stroustrup in 1985. Hello World: std::cout &lt;&lt; &quot;Hello, World!&quot;;.
+        /// </summary>
+        internal static string CppInfo {
+            get {
+                return ResourceManager.GetString("CppInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Powerful object-oriented language.
+        /// </summary>
+        internal static string CSharpDesc {
+            get {
+                return ResourceManager.GetString("CSharpDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to  Created by Microsoft in 2000. Hello World: Console.WriteLine(&quot;Hello, World!&quot;);.
+        /// </summary>
+        internal static string CSharpInfo {
+            get {
+                return ResourceManager.GetString("CSharpInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to English.
         /// </summary>
         internal static string EnglishButton {
@@ -88,11 +124,74 @@ namespace Mobiilirakendused.Resources.Localization {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Programming Languages.
+        /// </summary>
+        internal static string GalleryTitle {
+            get {
+                return ResourceManager.GetString("GalleryTitle", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Hello, World!.
         /// </summary>
         internal static string GreetingText {
             get {
                 return ResourceManager.GetString("GreetingText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Write once, run anywhere.
+        /// </summary>
+        internal static string JavaDesc {
+            get {
+                return ResourceManager.GetString("JavaDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Created by James Gosling in 1995. Hello World: System.out.println(&quot;Hello, World!&quot;);.
+        /// </summary>
+        internal static string JavaInfo {
+            get {
+                return ResourceManager.GetString("JavaInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to The language of the web.
+        /// </summary>
+        internal static string JsDesc {
+            get {
+                return ResourceManager.GetString("JsDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Created by Brendan Eich in 1995. Hello World: console.log(&quot;Hello, World!&quot;);.
+        /// </summary>
+        internal static string JsInfo {
+            get {
+                return ResourceManager.GetString("JsInfo", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Great for data and automation.
+        /// </summary>
+        internal static string PythonDesc {
+            get {
+                return ResourceManager.GetString("PythonDesc", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Created by Guido van Rossum in 1991. Hello World: print(&quot;Hello, World!&quot;).
+        /// </summary>
+        internal static string PythonInfo {
+            get {
+                return ResourceManager.GetString("PythonInfo", resourceCulture);
             }
         }
         
