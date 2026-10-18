@@ -1,4 +1,7 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Maui.Storage;
+using Mobiilirakendused.Services;
+
 namespace Mobiilirakendused
 {
     public partial class App : Application
@@ -6,6 +9,10 @@ namespace Mobiilirakendused
         public App()
         {
             InitializeComponent();
+
+            // Laeme salvestatud keele (vaikimisi "en")
+            var savedLang = Preferences.Get("AppLanguage", "en");
+            LanguageService.ChangeLanguage(savedLang);
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
