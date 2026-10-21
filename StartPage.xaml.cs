@@ -9,11 +9,11 @@ public partial class StartPage : ContentPage
 {
     VerticalStackLayout vst;
     ScrollView sv;
-    Label keeleNaideLabel; 
+    Label keeleNaideLabel;
 
-    public List<ContentPage> Lehed = new List<ContentPage>() { new TextPage(), new FigurePage(), new ValgusfoorPage(), new DateTimePage(), new StepperSliderPage(), new RGBPage(), new LumememmPage(), new TreePage(), new PopUp_Page(),
-    new MysteryPage(), new PickerImageGridPage(), new TicTacToePage(), new Table_Page(), new RiikPage(), new KarussellPage(), new CarouselGalleryPage(),new MemoPage() };
-    public List<string> LeheNimed = new List<string>() { "Tekst", "Kujund", "Valgusfoor", "Kuupäev ja aeg", "Stepper/Slider", "RGB mudel", "Lumememm", "Puu hooajad", "Pop-up aknad", "Mõistatused", "Pilt ja Grid", "Trips Traps Trull", "Tabel", "Euroopa Riigid", "Karussell", "Programmeerimiskeelte portfoolio", "Memo mäng" };
+    public List<Page> Lehed = new List<Page>() { new TextPage(), new FigurePage(), new ValgusfoorPage(), new DateTimePage(), new StepperSliderPage(), new RGBPage(), new LumememmPage(), new TreePage(), new PopUp_Page(),
+    new MysteryPage(), new PickerImageGridPage(), new TicTacToePage(), new Table_Page(), new RiikPage(), new KarussellPage(), new CarouselGalleryPage(),new MemoPage(), new RetseptidPage() };
+    public List<string> LeheNimed = new List<string>() { "Tekst", "Kujund", "Valgusfoor", "Kuupäev ja aeg", "Stepper/Slider", "RGB mudel", "Lumememm", "Puu hooajad", "Pop-up aknad", "Mõistatused", "Pilt ja Grid", "Trips Traps Trull", "Tabel", "Euroopa Riigid", "Karussell", "Programmeerimiskeelte portfoolio", "Memo mäng", "Retseptiraamat" };
 
     public StartPage()
     {

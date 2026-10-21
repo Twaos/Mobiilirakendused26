@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobiilirakendused.UusRetseptPage"
+             Title="Uus retsept">
+
+    <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Lisa uus retsept" FontSize="22" FontAttributes="Bold" HorizontalOptions="Center" />
+
+        <Entry x:Name="EntryNimi" Placeholder="Retsepti nimi (nt Pasta Carbonara)" />
+        <Entry x:Name="EntryKategooria" Placeholder="Kategooria (nt Pearoad)" />
+        <Entry x:Name="EntryPilt" Placeholder="Pildi URL (nt https://...)" Keyboard="Url" />
+
+        <Button Text="Salvesta retsept" Clicked="Salvesta_Clicked" BackgroundColor="#2196F3" TextColor="White" CornerRadius="10" HeightRequest="50" />
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobiilirakendused.MinuRetseptidPage"
+             Title="Minu retseptid">
+
+    <ListView x:Name="RetseptidList" IsGroupingEnabled="True" HasUnevenRows="True">
+        <ListView.GroupHeaderTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Label Text="{Binding Nimetus}"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           BackgroundColor="#E3F2FD"
+                           TextColor="#1565C0"
+                           Padding="15,10" />
+                </ViewCell>
+            </DataTemplate>
+        </ListView.GroupHeaderTemplate>
+
+        <ListView.ItemTemplate>
+            <DataTemplate>
+                <ViewCell>
+                    <Grid ColumnDefinitions="80, *" Padding="10">
+                        
+                        <Image Source="{Binding PildiLink}"
+                               WidthRequest="70"
+                               HeightRequest="70"
+                               Aspect="AspectFill"
+                               Grid.Column="0" />
+
+                        <VerticalStackLayout Grid.Column="1" VerticalOptions="Center" Spacing="5">
+                            <Label Text="{Binding Nimi}" FontAttributes="Bold" FontSize="16" />
+                        </VerticalStackLayout>
+                    </Grid>
+                </ViewCell>
+            </DataTemplate>
+        </ListView.ItemTemplate>
+    </ListView>
+</ContentPage>
