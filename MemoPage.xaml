@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Mobiilirakendused.MemoPage">
+
+    <Grid x:Name="MainGrid" Padding="10" RowSpacing="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        
+        <HorizontalStackLayout Grid.Row="0" HorizontalOptions="Center" Spacing="20">
+            <Label x:Name="ScoreLabel" Text="Punktid: 0" FontSize="18" TextColor="Black" />
+            <Label x:Name="MovesLabel" Text="Käigud: 0" FontSize="18" TextColor="Black" />
+        </HorizontalStackLayout>
+
+        
+        <HorizontalStackLayout Grid.Row="1" HorizontalOptions="Center" Spacing="10">
+            <Button Text="Hele" Clicked="ThemeLight_Clicked" />
+            <Button Text="Tume" Clicked="ThemeDark_Clicked" />
+            <Button Text="Värviline" Clicked="ThemeColorful_Clicked" />
+        </HorizontalStackLayout>
+
+        
+        <Grid x:Name="GameBoard" Grid.Row="2" RowSpacing="5" ColumnSpacing="5" />
+
+        
+        <Button Grid.Row="3" x:Name="RestartBtn" Text="Alusta uuesti" Clicked="RestartBtn_Clicked" />
+    </Grid>
+</ContentPage>
